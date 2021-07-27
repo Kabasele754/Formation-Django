@@ -40,3 +40,15 @@ Django adopte une approche "batteries incluses" similaire à Python et est livr�
 En tant que projet mature, Django apporte rarement des modifications de rupture et dispose d'un calendrier d'obsolescence clair pour toutes les mises à jour. Une nouvelle version majeure est publiée tous les neuf mois environ avec des correctifs mensuels pour la sécurité et les corrections de bogues.
 
 Il existe également un écosystème dynamique d'applications tierces - visibles sur le site Django Packages - qui fournissent des fonctionnalités supplémentaires. Au fil du temps, les packages les plus populaires sont souvent intégrés à Django lui-même.
+
+## Communauté
+Un dicton courant parmi les développeurs Django est « Venez pour le framework, restez pour la communauté ». Elle est connue pour être une communauté accueillante et encourageante, ce qui n'est pas toujours le cas en technologie. Des conférences DjangoCon annuelles sont organisées aux États-Unis, en Europe, en Australie et en Afrique, ainsi que des rencontres dans de nombreuses grandes villes.
+
+Des questions sur Django peuvent être posées sur le forum officiel de Django et les nouveaux arrivants sont encouragés à contribuer à Django lui-même.
+
+Le podcast hebdomadaire Django Chat propose des interviews de personnalités clés de la communauté ainsi que des plongées approfondies sur diverses fonctionnalités de base. Il existe également une newsletter hebdomadaire Django News avec des mises à jour sur les événements, les didacticiels et les packages tiers.
+
+## La structure Django
+Django s'inspire du modèle MVC ![image](https://user-images.githubusercontent.com/67704765/127159658-7fecd9a6-8f06-47a4-a5f5-7e88a5111097.png)
+ (disons plutot MVT ![image](https://user-images.githubusercontent.com/67704765/127159779-c71d3fa0-64da-4159-8718-97ec9caee799.png)
+) , c'est-à-dire que la structure du framework sépare les données ( models ) qui sont séparées des traitements ( controller ) qui sont eux-mêmes séparés de la vue ( view / template ). On vous oblige à bien coder, une structure doit être respectée et cela ne peut être que profitable au travail collaboratif ou simplement la cohérence / communication entre différents projets.
