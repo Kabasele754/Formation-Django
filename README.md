@@ -15,16 +15,29 @@ Au-delà du langage de programmation sous-jacent, la principale différence entr
 Python est l'un des langages de programmation les plus populaires au monde car il est convivial pour les nouveaux arrivants, extrêmement puissant et dispose d'un écosystème robuste de bibliothèques comme Django qui offrent des fonctionnalités supplémentaires. Python a récemment remplacé Java en tant que langage de programmation le plus populaire dans les meilleures universités américaines et se développe rapidement parmi les programmeurs professionnels, comme en témoigne sa croissance sur StackOverflow .
 
 Python met l'accent sur la lisibilité et la convivialité pour les développeurs, comme en témoigne sa syntaxe "Hello, World". Le voici en Python :
+
 print("Hello, World")
 
 Et le voici en Java :
 
 class  HelloWorldApp  { 
+
     public  static  void  main ( String []  args )  { 
+    
         System . dehors . println ( "Bonjour tout le monde!" );  
+        
     } 
+    
 }
+
 
 Même si vous ne connaissez rien à l'un ou l'autre des langages de programmation, il est clair en un coup d'œil que Python est le plus facile des deux à comprendre.
 
 Django a été initialement développé par des programmeurs Web du journal Lawrence Journal-World , en particulier Adrian Holovaty, Simon Willison et Jacob Kaplan-Moss. Il a été rendu public pour la première fois en tant que package open source en 2005 et est actuellement maintenu par la Django Software Foundation à but non lucratif . 
+
+## Principales caractéristiques
+Django adopte une approche "batteries incluses" similaire à Python et est livré avec un certain nombre de fonctionnalités intégrées, notamment un système d'authentification extensible, une application d'administration robuste, un serveur Web de test léger et la prise en charge de plusieurs bases de données, notamment PostgreSQL, MySQL, MariaDB, Oracle , et SQLite. Il est connu pour ses meilleures pratiques en matière de sécurité et est livré avec une documentation complète , disponible en ligne ou au format PDF/ePUB pour une utilisation hors ligne.
+
+En tant que projet mature, Django apporte rarement des modifications de rupture et dispose d'un calendrier d'obsolescence clair pour toutes les mises à jour. Une nouvelle version majeure est publiée tous les neuf mois environ avec des correctifs mensuels pour la sécurité et les corrections de bogues.
+
+Il existe également un écosystème dynamique d'applications tierces - visibles sur le site Django Packages - qui fournissent des fonctionnalités supplémentaires. Au fil du temps, les packages les plus populaires sont souvent intégrés à Django lui-même.
