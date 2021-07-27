@@ -52,3 +52,17 @@ Le podcast hebdomadaire Django Chat propose des interviews de personnalités cl�
 Django s'inspire du modèle MVC ![image](https://user-images.githubusercontent.com/67704765/127159658-7fecd9a6-8f06-47a4-a5f5-7e88a5111097.png)
  (disons plutot MVT ![image](https://user-images.githubusercontent.com/67704765/127159779-c71d3fa0-64da-4159-8718-97ec9caee799.png)
 ) , c'est-à-dire que la structure du framework sépare les données ( models ) qui sont séparées des traitements ( controller ) qui sont eux-mêmes séparés de la vue ( view / template ). On vous oblige à bien coder, une structure doit être respectée et cela ne peut être que profitable au travail collaboratif ou simplement la cohérence / communication entre différents projets.
+
+
+Le moteur de template de base est le plus simple, efficace souple et facile à prendre en main. Un routeur permet de rediriger les actions en fonctions des URL et une API permet de fournir des informations sur votre projet sans passser par la case SQL. D'ailleurs l' ORM inclu vous éloignera de toute requète SQL.
+
+
+Chaque projet Django vous propose de lancer son propre serveur web et d'y faire à peu près tout ce que l'on veut dans un environnement de test.
+
+
+Un des concepts des plus intelligent de Django est de proposer un espace admin tout fait dans ses contrib . Une fois que vous avez créé vos modèles (la structure de votre projet), vous avez accès à une interface web CRUD en quelques minutes c'est vraiment impressionnant.
+
+
+Vous pouvez évidemment personnaliser cet espace admin ou créer vos propres templates et vos propres formulaires . Django vous proposera des outils pour sécuriser les données ou afficher les erreurs si besoin.
+
+
