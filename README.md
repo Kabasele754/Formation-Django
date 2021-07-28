@@ -17,7 +17,8 @@ Python est l'un des langages de programmation les plus populaires au monde car i
 Python met l'accent sur la lisibilité et la convivialité pour les développeurs, comme en témoigne sa syntaxe "Hello, World". Le voici en Python :
 
 
-```python print("Hello, World")```
+```python 
+print("Hello, World")```
 
 Et le voici en Java :
 
