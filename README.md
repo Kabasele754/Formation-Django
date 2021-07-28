@@ -18,7 +18,8 @@ Python met l'accent sur la lisibilité et la convivialité pour les développeur
 
 
 ```python 
-print("Hello, World")```
+print("Hello, World")
+```
 
 Et le voici en Java :
 
@@ -28,7 +29,8 @@ Et le voici en Java :
     
         System . dehors . println ( "Bonjour tout le monde!" );  
         
-    }}```
+    }}
+    ```
 
 
 Même si vous ne connaissez rien à l'un ou l'autre des langages de programmation, il est clair en un coup d'œil que Python est le plus facile des deux à comprendre.
