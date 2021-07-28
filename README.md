@@ -30,12 +30,20 @@ Et le voici en Java :
         System . dehors . println ( "Bonjour tout le monde!" );  
         
     }}
-    ```
+ ```
 
 
 Même si vous ne connaissez rien à l'un ou l'autre des langages de programmation, il est clair en un coup d'œil que Python est le plus facile des deux à comprendre.
 
-Django a été initialement développé par des programmeurs Web du journal Lawrence Journal-World , en particulier Adrian Holovaty, Simon Willison et Jacob Kaplan-Moss. Il a été rendu public pour la première fois en tant que package open source en 2005 et est actuellement maintenu par la Django Software Foundation à but non lucratif . 
+## Histoire de Django
+
+Django a été initialement développé par des programmeurs Web du journal Lawrence Journal-World , 
+*
+2003 − Démarré par Adrian Holovaty et Simon Willison en tant que projet interne au journal Lawrence Journal-World.
+2005 - Sorti en juillet 2005 et nommé Django, d'après le guitariste de jazz Django Reinhardt.
+2005 − Assez mature pour gérer plusieurs sites à fort trafic.
+Actuel - Django est maintenant un projet open source, est actuellement maintenu par la Fondation Software  Django à but non lucratif et  avec des contributeurs du monde entier.
+*
 
 ## Principales caractéristiques
 Django adopte une approche "batteries incluses" similaire à Python et est livré avec un certain nombre de fonctionnalités intégrées, notamment un système d'authentification extensible, une application d'administration robuste, un serveur Web de test léger et la prise en charge de plusieurs bases de données, notamment PostgreSQL, MySQL, MariaDB, Oracle , et SQLite. Il est connu pour ses meilleures pratiques en matière de sécurité et est livré avec une documentation complète , disponible en ligne ou au format PDF/ePUB pour une utilisation hors ligne.
