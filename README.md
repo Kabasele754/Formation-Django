@@ -37,16 +37,34 @@ Même si vous ne connaissez rien à l'un ou l'autre des langages de programmatio
 
 ## Histoire de Django
 
-Django a été initialement développé par des programmeurs Web du journal Lawrence Journal-World , 
+- 2003 − Django a été initialement développé par des programmeurs Web du journal Lawrence Journal-World ,  Démarré par Adrian Holovaty et Simon Willison en tant que projet interne au journal Lawrence Journal-World.
 
-- 2003 − Démarré par Adrian Holovaty et Simon Willison en tant que projet interne au journal Lawrence Journal-World.
 - 2005 - Sorti en juillet 2005 et nommé Django, d'après le guitariste de jazz Django Reinhardt.
+
 - 2005 − Assez mature pour gérer plusieurs sites à fort trafic.
+
 - Actuel - Django est maintenant un projet open source, est actuellement maintenu par la Fondation Software  Django à but non lucratif et  avec des contributeurs du monde entier.
+
+## Django – Philosophies de conception
+
+Django est livré avec les philosophies de conception suivantes :
+
+- Loosely Coupled − Django vise à rendre chaque élément de sa pile indépendant des autres.
+- Less Coding  Moins de codage  − Moins de code donc un développement rapide.
+- Don't Repeat Yourself (DRY) en français Ne vous répétez pas  - Tout doit être développé uniquement à un seul endroit au lieu de le répéter encore et encore.
+- Fast Development en français Développement rapide - La philosophie de Django est de faire tout son possible pour faciliter un développement ultra-rapide.
+- Clean Design en français Conception propre - Django maintient strictement une conception propre dans son propre code et facilite le suivi des meilleures pratiques de développement Web.
 
 
 ## Principales caractéristiques
-Django adopte une approche "batteries incluses" similaire à Python et est livré avec un certain nombre de fonctionnalités intégrées, notamment un système d'authentification extensible, une application d'administration robuste, un serveur Web de test léger et la prise en charge de plusieurs bases de données, notamment PostgreSQL, MySQL, MariaDB, Oracle , et SQLite. Il est connu pour ses meilleures pratiques en matière de sécurité et est livré avec une documentation complète , disponible en ligne ou au format PDF/ePUB pour une utilisation hors ligne.
+Django adopte une approche "batteries incluses" similaire à Python et est livré avec un certain nombre de fonctionnalités qui peuvent être répertoriés ici:
+- Prise en charge du mappage objet-relationnel (ORM) - Django fournit un pont entre le modèle de données et le moteur de base de données, et prend en charge un grand nombre de systèmes de base de données, notamment MySQL, Oracle, Postgres, etc. Django prend également en charge la base de données NoSQL via Django-nonrel fork. Pour l'instant, les seules bases de données NoSQL prises en charge sont MongoDB et Google App Engine.
+- Prise en charge multilingue - Django prend en charge les sites Web multilingues grâce à son système d'internationalisation intégré. Ainsi, vous pouvez développer votre site Web, qui prendrait en charge plusieurs langues.
+- Prise en charge du framework - Django prend en charge Ajax, RSS, Caching et divers autres frameworks.
+- Interface graphique d'administration - Django fournit une interface utilisateur agréable et prête à l'emploi pour les activités administratives.
+- notamment un système d'authentification extensible
+- Environnement de développement - Django est livré avec un serveur Web léger pour faciliter le développement et les tests d'applications de bout en bout.
+- Il est connu pour ses meilleures pratiques en matière de sécurité et est livré avec une documentation complète , disponible en ligne ou au format PDF/ePUB pour une utilisation hors ligne.
 
 En tant que projet mature, Django apporte rarement des modifications de rupture et dispose d'un calendrier d'obsolescence clair pour toutes les mises à jour. Une nouvelle version majeure est publiée tous les neuf mois environ avec des correctifs mensuels pour la sécurité et les corrections de bogues.
 
