@@ -1,4 +1,4 @@
-# My-Django
+# My Django  
 ![image](https://user-images.githubusercontent.com/67704765/127151818-1921b790-513f-4ff9-8ca1-2e33e5b5c33a.png)
 
 
@@ -17,17 +17,17 @@ Python est l'un des langages de programmation les plus populaires au monde car i
 Python met l'accent sur la lisibilité et la convivialité pour les développeurs, comme en témoigne sa syntaxe "Hello, World". Le voici en Python :
 
 
-{print("Hello, World")}
+```python print("Hello, World")```
 
 Et le voici en Java :
 
-class  HelloWorldApp  { 
+```java class  HelloWorldApp  { 
 
     public  static  void  main ( String []  args )  { 
     
         System . dehors . println ( "Bonjour tout le monde!" );  
         
-    }}
+    }}```
 
 
 Même si vous ne connaissez rien à l'un ou l'autre des langages de programmation, il est clair en un coup d'œil que Python est le plus facile des deux à comprendre.
