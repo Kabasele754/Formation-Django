@@ -85,13 +85,8 @@ Comme vous le savez déjà, Django est un framework web Python. Et comme la plup
 ## Modèle MVC
 
 Lorsque nous parlons d'applications qui fournissent une interface utilisateur (web ou bureau), nous parlons généralement d'architecture MVC. Et comme son nom l'indique, le modèle MVC est basé sur trois composants : modèle, vue et contrôleur. Comme nous le presentons sur le diagramme suivant illustre comment moedel MVC est representé :
-``` html
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/67704765/127159658-7fecd9a6-8f06-47a4-a5f5-7e88a5111097.png" width="350" title="hover text">
-  
-</p>
-```
-<!-- ![image](https://user-images.githubusercontent.com/67704765/127159658-7fecd9a6-8f06-47a4-a5f5-7e88a5111097.png) -->
+
+![image](https://user-images.githubusercontent.com/67704765/127159658-7fecd9a6-8f06-47a4-a5f5-7e88a5111097.png)
 
 ## DJANGO MVC - Modèle MVT
 
@@ -99,7 +94,7 @@ Le modèle-vue-template (MVT) est légèrement différent de MVC. En fait, la pr
 
 Le diagramme suivant illustre comment chacun des composants du modèle MVT interagit les uns avec les autres pour répondre à une demande d'utilisateur :  
 
- ![image](https://user-images.githubusercontent.com/67704765/127159779-c71d3fa0-64da-4159-8718-97ec9caee799.png)
+![image](https://user-images.githubusercontent.com/67704765/127159779-c71d3fa0-64da-4159-8718-97ec9caee799.png)
 
 
 Le moteur de template de base est le plus simple, efficace souple et facile à prendre en main. Un routeur permet de rediriger les actions en fonctions des URL et une API permet de fournir des informations sur votre projet sans passser par la case SQL. D'ailleurs l' ORM inclu vous éloignera de toute requète SQL.
