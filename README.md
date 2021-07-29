@@ -45,7 +45,7 @@ Même si vous ne connaissez rien à l'un ou l'autre des langages de programmatio
 
 - Actuel - Django est maintenant un projet open source, est actuellement maintenu par la Fondation Software  Django à but non lucratif et  avec des contributeurs du monde entier.
 
-## Django – Philosophies de conception
+## Philosophies de conception Django
 
 Django est livré avec les philosophies de conception suivantes :
 
@@ -77,10 +77,23 @@ Des questions sur Django peuvent être posées sur le forum officiel de Django e
 
 Le podcast hebdomadaire Django Chat propose des interviews de personnalités clés de la communauté ainsi que des plongées approfondies sur diverses fonctionnalités de base. Il existe également une newsletter hebdomadaire Django News avec des mises à jour sur les événements, les didacticiels et les packages tiers.
 
+
+
 ## La structure Django
-Django s'inspire du modèle MVC ![image](https://user-images.githubusercontent.com/67704765/127159658-7fecd9a6-8f06-47a4-a5f5-7e88a5111097.png)
- (disons plutot MVT ![image](https://user-images.githubusercontent.com/67704765/127159779-c71d3fa0-64da-4159-8718-97ec9caee799.png)
-) , c'est-à-dire que la structure du framework sépare les données ( models ) qui sont séparées des traitements ( controller ) qui sont eux-mêmes séparés de la vue ( view / template ). On vous oblige à bien coder, une structure doit être respectée et cela ne peut être que profitable au travail collaboratif ou simplement la cohérence / communication entre différents projets.
+Comme vous le savez déjà, Django est un framework web Python. Et comme la plupart des frameworks modernes, Django prend en charge le modèle MVC.Voyons d'abord ce qu'est le modèle Modèle-Vue-Contrôleur (MVC), puis nous examinerons la spécificité de Django pour le modèle Modèle-Vue-Modèle (MVT).
+
+## Modèle MVC
+
+Lorsque nous parlons d'applications qui fournissent une interface utilisateur (web ou bureau), nous parlons généralement d'architecture MVC. Et comme son nom l'indique, le modèle MVC est basé sur trois composants : modèle, vue et contrôleur. Comme nous le presentons sur le diagramme suivant illustre comment moedel MVC est representé :
+![image](https://user-images.githubusercontent.com/67704765/127159658-7fecd9a6-8f06-47a4-a5f5-7e88a5111097.png)
+
+## DJANGO MVC - Modèle MVT
+
+Le modèle-vue-template (MVT) est légèrement différent de MVC. En fait, la principale différence entre les deux modèles est que Django s'occupe lui-même de la partie Contrôleur (Code logiciel qui contrôle les interactions entre le Modèle et la Vue), nous laissant le template. Le template est un fichier HTML mélangé avec Django Template Language (DTL).
+
+Le diagramme suivant illustre comment chacun des composants du modèle MVT interagit les uns avec les autres pour répondre à une demande d'utilisateur :  
+
+ ![image](https://user-images.githubusercontent.com/67704765/127159779-c71d3fa0-64da-4159-8718-97ec9caee799.png)
 
 
 Le moteur de template de base est le plus simple, efficace souple et facile à prendre en main. Un routeur permet de rediriger les actions en fonctions des URL et une API permet de fournir des informations sur votre projet sans passser par la case SQL. D'ailleurs l' ORM inclu vous éloignera de toute requète SQL.
