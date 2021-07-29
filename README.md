@@ -85,7 +85,13 @@ Comme vous le savez déjà, Django est un framework web Python. Et comme la plup
 ## Modèle MVC
 
 Lorsque nous parlons d'applications qui fournissent une interface utilisateur (web ou bureau), nous parlons généralement d'architecture MVC. Et comme son nom l'indique, le modèle MVC est basé sur trois composants : modèle, vue et contrôleur. Comme nous le presentons sur le diagramme suivant illustre comment moedel MVC est representé :
-![image](https://user-images.githubusercontent.com/67704765/127159658-7fecd9a6-8f06-47a4-a5f5-7e88a5111097.png)
+``` html
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/67704765/127159658-7fecd9a6-8f06-47a4-a5f5-7e88a5111097.png" width="350" title="hover text">
+  
+</p>
+```
+<!-- ![image](https://user-images.githubusercontent.com/67704765/127159658-7fecd9a6-8f06-47a4-a5f5-7e88a5111097.png) -->
 
 ## DJANGO MVC - Modèle MVT
 
