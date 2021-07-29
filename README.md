@@ -112,6 +112,10 @@ L'environnement de développement Django consiste à installer et à configurer 
 
 ### Etape 1 - Installation de Python
 
+Django est écrit en code Python 100% pur, vous devrez donc installer Python sur votre système. La dernière version de Django nécessite Python 3.8.5 ou supérieur
+
+Si vous utilisez l'une des dernières distributions Linux ou Mac OS X, vous avez probablement déjà installé Python. Vous pouvez le vérifier en tapant la commande python à une invite de commande. Si vous voyez quelque chose comme ça, alors Python est installé.
+
 ```linux
 $ python3 --version
 ```
