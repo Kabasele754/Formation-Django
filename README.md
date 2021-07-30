@@ -120,5 +120,8 @@ Si vous utilisez l'une des dernières distributions Linux ou Mac OS X, vous avez
 $ python3 --version
 ```
 
+### Etape 2 - Installation de Django
+L'installation de Django est très simple, mais les étapes nécessaires à son installation dépendent de votre système d'exploitation. Étant donné que Python est un langage indépendant de la plate-forme, Django a un package qui fonctionne partout, quel que soit votre système d'exploitation.
+
 
 
