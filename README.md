@@ -123,5 +123,24 @@ $ python3 --version
 ### Etape 2 - Installation de Django
 L'installation de Django est très simple, mais les étapes nécessaires à son installation dépendent de votre système d'exploitation. Étant donné que Python est un langage indépendant de la plate-forme, Django a un package qui fonctionne partout, quel que soit votre système d'exploitation.
 
+Vous pouvez télécharger la dernière version de Django à partir du lien http://www.djangoproject.com/download .
 
+Installation UNIX/Linux et Mac OS X
+Vous avez deux manières d'installer Django si vous utilisez un système Linux ou Mac OS -
+
+Vous pouvez utiliser le gestionnaire de packages de votre système d'exploitation ou utiliser easy_install ou pip s'il est installé.
+
+Installez-le manuellement en utilisant l'archive officielle que vous avez téléchargée auparavant.
+
+Nous couvrirons la deuxième option car la première dépend de la distribution de votre système d'exploitation. Si vous avez décidé de suivre la première option, faites simplement attention à la version de Django que vous installez.
+
+Disons que vous avez obtenu votre archive à partir du lien ci-dessus, cela devrait être quelque chose comme Django-x.xx.tar.gz :
+
+Extraire et installer.
+
+```
+$ tar xzvf Django-x.xx.tar.gz
+$ cd Django-x.xx
+$ sudo python setup.py install
+```
 
