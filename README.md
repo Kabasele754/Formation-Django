@@ -108,7 +108,10 @@ Un des concepts des plus intelligent de Django est de proposer un espace admin t
 
 Vous pouvez évidemment personnaliser cet espace admin ou créer vos propres templates et vos propres formulaires . Django vous proposera des outils pour sécuriser les données ou afficher les erreurs si besoin.
 
-L'environnement de développement Django consiste à installer et à configurer Python, Django et un système de base de données. Étant donné que Django traite des applications Web, il convient de mentionner que vous auriez également besoin d'une configuration de serveur Web.
+## La configuration de l'environnement 
+
+D
+éveloppement L'environnement de développement Django consiste à installer et à configurer Python, Django et un système de base de données. Étant donné que Django traite des applications Web, il convient de mentionner que vous auriez également besoin d'une configuration de serveur Web.
 
 ### Etape 1 - Installation de Python
 
