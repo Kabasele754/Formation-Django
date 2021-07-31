@@ -70,7 +70,7 @@ En tant que projet mature, Django apporte rarement des modifications de rupture 
 
 Il existe également un écosystème dynamique d'applications tierces - visibles sur le site Django Packages - qui fournissent des fonctionnalités supplémentaires. Au fil du temps, les packages les plus populaires sont souvent intégrés à Django lui-même.
 
-## Communauté
+## La Communauté
 Un dicton courant parmi les développeurs Django est « Venez pour le framework, restez pour la communauté ». Elle est connue pour être une communauté accueillante et encourageante, ce qui n'est pas toujours le cas en technologie. Des conférences DjangoCon annuelles sont organisées aux États-Unis, en Europe, en Australie et en Afrique, ainsi que des rencontres dans de nombreuses grandes villes.
 
 Des questions sur Django peuvent être posées sur le forum officiel de Django et les nouveaux arrivants sont encouragés à contribuer à Django lui-même.
