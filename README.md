@@ -128,7 +128,7 @@ L'installation de Django est très simple, mais les étapes nécessaires à son 
 
 Vous pouvez télécharger la dernière version de Django à partir du lien http://www.djangoproject.com/download .
 
-Installation UNIX/Linux et Mac OS X
+### Installation UNIX/Linux et Mac OS X
 Vous avez deux manières d'installer Django si vous utilisez un système Linux ou Mac OS -
 
 Vous pouvez utiliser le gestionnaire de packages de votre système d'exploitation ou utiliser easy_install ou pip s'il est installé.
@@ -148,7 +148,4 @@ $ sudo python setup.py install
 ```
 
 ### Installation sur Windows
-
-### Installation sur Mac 
-
 
