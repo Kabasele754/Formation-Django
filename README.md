@@ -147,6 +147,8 @@ $ cd Django-x.xx
 $ sudo python setup.py install
 ```
 
-### Installation de Windows
+### Installation sur Windows
+
+### Installation sur Mac 
 
 
