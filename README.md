@@ -45,7 +45,7 @@ Même si vous ne connaissez rien à l'un ou l'autre des langages de programmatio
 
 - Actuel - Django est maintenant un projet open source, est actuellement maintenu par la Fondation Software  Django à but non lucratif et  avec des contributeurs du monde entier.
 
-## Philosophies de conception Django
+## La Philosophies de conception Django
 
 Django est livré avec les philosophies de conception suivantes :
 
