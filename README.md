@@ -56,7 +56,7 @@ Django est livré avec les philosophies de conception suivantes :
 - Clean Design en français Conception propre - Django maintient strictement une conception propre dans son propre code et facilite le suivi des meilleures pratiques de développement Web.
 
 
-## Principales caractéristiques
+## Les Principales et caractéristiques
 Django adopte une approche "batteries incluses" similaire à Python et est livré avec un certain nombre de fonctionnalités qui peuvent être répertoriés ici:
 - Prise en charge du mappage objet-relationnel (ORM) - Django fournit un pont entre le modèle de données et le moteur de base de données, et prend en charge un grand nombre de systèmes de base de données, notamment MySQL, Oracle, Postgres, etc. Django prend également en charge la base de données NoSQL via Django-nonrel fork. Pour l'instant, les seules bases de données NoSQL prises en charge sont MongoDB et Google App Engine.
 - Prise en charge multilingue - Django prend en charge les sites Web multilingues grâce à son système d'internationalisation intégré. Ainsi, vous pouvez développer votre site Web, qui prendrait en charge plusieurs langues.
