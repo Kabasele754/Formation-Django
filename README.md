@@ -35,7 +35,7 @@ Et le voici en Java :
 
 Même si vous ne connaissez rien à l'un ou l'autre des langages de programmation, il est clair en un coup d'œil que Python est le plus facile des deux à comprendre.
 
-## Histoire de Django
+## L'histoire de Django
 
 - 2003 − Django a été initialement développé par des programmeurs Web du journal Lawrence Journal-World ,  Démarré par Adrian Holovaty et Simon Willison en tant que projet interne au journal Lawrence Journal-World.
 
