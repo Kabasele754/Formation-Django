@@ -110,8 +110,7 @@ Vous pouvez évidemment personnaliser cet espace admin ou créer vos propres tem
 
 ## La configuration de l'environnement 
 
-D
-éveloppement L'environnement de développement Django consiste à installer et à configurer Python, Django et un système de base de données. Étant donné que Django traite des applications Web, il convient de mentionner que vous auriez également besoin d'une configuration de serveur Web.
+Développement L'environnement de développement Django consiste à installer et à configurer Python, Django et un système de base de données. Étant donné que Django traite des applications Web, il convient de mentionner que vous auriez également besoin d'une configuration de serveur Web.
 
 ### Etape 1 - Installation de Python
 
@@ -148,4 +147,8 @@ $ sudo python setup.py install
 ```
 
 ### Installation sur Windows
+
+L'installateur complet¶
+3.1.1. Étapes d'installation
+Quatre installateurs Python 3.9 sont disponibles au téléchargement — deux de chaque pour les versions 32-bit et 64-bit de l'interpréteur. L'installateur web est léger, et téléchargera automatiquement les composants nécessaires. L'installateur hors-ligne inclut les composants nécessaires pour une installation par défaut et n'a besoin d'une connexion internet que pour des fonctionnalités optionnelles. Voir Installation sans téléchargement pour d'autres moyens d’éviter des téléchargements durant l'installation.
 
