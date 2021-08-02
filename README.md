@@ -164,6 +164,7 @@ python [-bBdEhiIOqsSuvVWx?] [-c command | -m module-name | script | - ] [args]
 Le cas d'utilisation le plus courant est, bien entendu, la simple invocation d'un script :
 
 python myscript.py
+
 ###### 1.1.1. Options de l'interface
 L'interface de l’interpréteur ressemble à celle du shell UNIX mais fournit quelques méthodes d'invocation supplémentaires :
 
