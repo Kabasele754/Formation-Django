@@ -203,3 +203,21 @@ Si cette option est donnée, le premier élément de sys.argv est le chemin comp
 
 L'option -I peut être utilisée pour exécuter le script en mode isolé où sys.path ne contient ni le dossier courant, ni le dossier site-packages de l'utilisateur. Toutes les variables d'environnement PYTHON* sont également ignorées.
 
+
+De nombreux modules de la bibliothèque standard contiennent du code qui est invoqué quand ils sont exécutés comme scripts. Un exemple est le module timeit :
+
+python -m timeit -s 'setup here' 'benchmarked code here'
+python -m timeit -h # for details
+Lève un évènement d'audit cpython.run_command avec comme argument module-name.
+
+Voir aussi
+runpy.run_module()
+Fonctionnalité équivalente directement disponible en code Python
+
+PEP 338 -- Exécuter des modules en tant que scripts
+
+Modifié dans la version 3.1: Fournir le nom d'un paquet pour exécuter un sous-module __main__.
+
+Modifié dans la version 3.4: les paquets-espaces de nommage sont aussi gérés
+
+-
