@@ -150,5 +150,48 @@ $ sudo python setup.py install
 
 L'installateur complet¶
 3.1.1. Étapes d'installation
-Quatre installateurs Python 3.9 sont disponibles au téléchargement — deux de chaque pour les versions 32-bit et 64-bit de l'interpréteur. L'installateur web est léger, et téléchargera automatiquement les composants nécessaires. L'installateur hors-ligne inclut les composants nécessaires pour une installation par défaut et n'a besoin d'une connexion internet que pour des fonctionnalités optionnelles. Voir Installation sans téléchargement pour d'autres moyens d’éviter des téléchargements durant l'installation.
+Quatre installateurs Python 3.9 sont disponibles au téléchargement — deux de chaque pour les versions 32-bit et 64-bit de l'interpréteur. L'installateur web est léger, et téléchargera automatiquement les composants nécessaires. L'installateur hors-ligne inclut les composants nécessaires pour une installation par défaut et n'a besoin d'une connexion internet que pour des fonctionnalités optionnelles. Voir Installation sans téléchargement pour d'autres moyens d’éviter des téléchargements durant l'installation..
+
+### 1. Ligne de commande et environnement
+L'interpréteur CPython analyse la ligne de commande et l'environnement à la recherche de différents paramètres.
+
+CPython implementation detail: Le format des lignes de commande utilisé par d'autres implémentations peut s'avérer différent. Voir Autres implémentations pour plus d'informations.
+
+#### 1.1. Ligne de commande
+Quand vous invoquez Python, vous pouvez spécifier n’importe laquelle de ces options :
+
+python [-bBdEhiIOqsSuvVWx?] [-c command | -m module-name | script | - ] [args]
+Le cas d'utilisation le plus courant est, bien entendu, la simple invocation d'un script :
+
+python myscript.py
+###### 1.1.1. Options de l'interface
+L'interface de l’interpréteur ressemble à celle du shell UNIX mais fournit quelques méthodes d'invocation supplémentaires :
+
+Quand l'interpréteur est appelé avec l'entrée standard connectée à un périphérique tty, il lit les lignes de commande et les exécute jusqu'à ce qu'un caractère EOF (caractère fin de fichier, que vous pouvez produire avec Ctrl-D sous UNIX ou Ctrl-Z, Enter sous Windows) soit lu.
+
+Quand l'interpréteur est appelé avec un argument correspondant à un nom de fichier ou avec un fichier comme entrée standard, il lit et exécute le script contenu dans ce fichier.
+
+Quand l'interpréteur est appelé avec un argument correspondant à un répertoire, il lit et exécute un script d’un certain nom dans ce répertoire.
+
+Quand l'interpréteur est appelé avec l'option -c commande, il exécute la ou les instructions Python données comme commande. Ici commande peut contenir plusieurs instructions séparées par des fins de ligne. Les blancs en début de ligne ne sont pas ignorés dans les instructions Python !
+
+Quand l'interpréteur est appelé avec l'option -m nom-de-module, le module donné est recherché dans le chemin des modules Python et est exécuté en tant que script.
+
+En mode non-interactif, toute l’entrée est analysée avant d’être exécutée.
+
+Une option d'interface termine la liste des options consommées par l'interpréteur ; tous les arguments atterrissent dans sys.argv — notez que le premier élément, à l'indice zéro (sys.argv|0]), est une chaîne de caractères indiquant la source du programme.
+
+-c <command>
+Exécute le code Python dans command. command peut être une ou plusieurs instructions, séparées par des fins de ligne, dont les espaces en début de ligne sont significatives, comme dans le code d’un module.
+
+Si cette option est donnée, le premier élément de sys.argv est "-c" et le répertoire courant est ajouté au début de sys.path (permettant aux modules de ce répertoire d'être importés comme des modules de premier niveau).
+
+Lève un évènement d'audit cpython.run_command avec comme argument command.
+
+-m <module-name>
+Parcourt sys.path à la recherche du module donné et exécute son contenu en tant que module __main__.
+
+L'argument étant un nom de module, vous ne devez pas fournir d’extension de fichier (.py). Le nom du module doit être un nom de module Python valide, absolu, mais l'implémentation peut ne pas l'imposer (par exemple, l'utilisation d'un trait d'union peut être autorisée).
+
+Les noms de paquets sont aussi autorisés (ainsi que les paquets-espace de nommage, namespace packages en anglais). Quand un nom de paquet est donné à la place d'un simple module, l'interpréteur exécute <pkg>.__main__ comme module principal. Ce comportement est délibérément identique au traitement d'un dossier ou d'un fichier zip donné en argument à l'interpréteur comme script.
 
