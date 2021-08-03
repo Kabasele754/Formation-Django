@@ -212,12 +212,3 @@ Lève un évènement d'audit cpython.run_command avec comme argument module-name
 
 Voir aussi
 runpy.run_module()
-Fonctionnalité équivalente directement disponible en code Python
-
-PEP 338 -- Exécuter des modules en tant que scripts
-
-Modifié dans la version 3.1: Fournir le nom d'un paquet pour exécuter un sous-module __main__.
-
-Modifié dans la version 3.4: les paquets-espaces de nommage sont aussi gérés
-
--
