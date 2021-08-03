@@ -206,6 +206,3 @@ L'option -I peut être utilisée pour exécuter le script en mode isolé où sys
 
 De nombreux modules de la bibliothèque standard contiennent du code qui est invoqué quand ils sont exécutés comme scripts. Un exemple est le module timeit :
 
-python -m timeit -s 'setup here' 'benchmarked code here'
-python -m timeit -h # for details
-Lève un évènement d'audit cpython.run_command avec comme argument module-name.
