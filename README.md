@@ -209,6 +209,3 @@ De nombreux modules de la bibliothèque standard contiennent du code qui est inv
 python -m timeit -s 'setup here' 'benchmarked code here'
 python -m timeit -h # for details
 Lève un évènement d'audit cpython.run_command avec comme argument module-name.
-
-Voir aussi
-runpy.run_module()
