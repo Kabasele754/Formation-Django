@@ -203,6 +203,3 @@ Si cette option est donnée, le premier élément de sys.argv est le chemin comp
 
 L'option -I peut être utilisée pour exécuter le script en mode isolé où sys.path ne contient ni le dossier courant, ni le dossier site-packages de l'utilisateur. Toutes les variables d'environnement PYTHON* sont également ignorées.
 
-
-De nombreux modules de la bibliothèque standard contiennent du code qui est invoqué quand ils sont exécutés comme scripts. Un exemple est le module timeit :
-
