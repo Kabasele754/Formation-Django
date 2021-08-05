@@ -187,8 +187,4 @@ Une option d'interface termine la liste des options consommées par l'interprét
 -c <command>
 Exécute le code Python dans command. command peut être une ou plusieurs instructions, séparées par des fins de ligne, dont les espaces en début de ligne sont significatives, comme dans le code d’un module.
 
-Si cette option est donnée, le premier élément de sys.argv est "-c" et le répertoire courant est ajouté au début de sys.path (permettant aux modules de ce répertoire d'être importés comme des modules de premier niveau).
-
-Lève un évènement d'audit cpython.run_command avec comme argument command.
-
 
