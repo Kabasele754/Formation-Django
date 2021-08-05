@@ -191,10 +191,4 @@ Si cette option est donnée, le premier élément de sys.argv est "-c" et le ré
 
 Lève un évènement d'audit cpython.run_command avec comme argument command.
 
--m <module-name>
-Parcourt sys.path à la recherche du module donné et exécute son contenu en tant que module __main__.
-
-L'argument étant un nom de module, vous ne devez pas fournir d’extension de fichier (.py). Le nom du module doit être un nom de module Python valide, absolu, mais l'implémentation peut ne pas l'imposer (par exemple, l'utilisation d'un trait d'union peut être autorisée).
-
-Les noms de paquets sont aussi autorisés (ainsi que les paquets-espace de nommage, namespace packages en anglais). Quand un nom de paquet est donné à la place d'un simple module, l'interpréteur exécute <pkg>.__main__ comme module principal. Ce comportement est délibérément identique au traitement d'un dossier ou d'un fichier zip donné en argument à l'interpréteur comme script.
 
