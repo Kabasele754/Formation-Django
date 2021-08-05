@@ -198,8 +198,3 @@ L'argument étant un nom de module, vous ne devez pas fournir d’extension de f
 
 Les noms de paquets sont aussi autorisés (ainsi que les paquets-espace de nommage, namespace packages en anglais). Quand un nom de paquet est donné à la place d'un simple module, l'interpréteur exécute <pkg>.__main__ comme module principal. Ce comportement est délibérément identique au traitement d'un dossier ou d'un fichier zip donné en argument à l'interpréteur comme script.
 
-Note Cette option ne peut pas être utilisée avec les modules natifs et les modules d'extension écrits en C, étant donné qu'ils ne possèdent pas de fichiers modules en Python. Cependant, elle peut toujours être utilisée pour les modules pré-compilés, même si le fichier source original n'est pas disponible.
-Si cette option est donnée, le premier élément de sys.argv est le chemin complet d'accès au fichier du module (pendant que le fichier est recherché, le premier élément est mis à "-m"). Comme avec l'option -c, le dossier courant est ajouté au début de sys.path.
-
-L'option -I peut être utilisée pour exécuter le script en mode isolé où sys.path ne contient ni le dossier courant, ni le dossier site-packages de l'utilisateur. Toutes les variables d'environnement PYTHON* sont également ignorées.
-
