@@ -144,9 +144,5 @@ Extraire et installer.
 
 ```
 $ tar xzvf Django-x.xx.tar.gz
-$ cd Django-x.xx
-$ sudo python setup.py install
-```
-
-### Installation sur Windows
+$ cd Django-x.x
 
