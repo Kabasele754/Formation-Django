@@ -143,6 +143,4 @@ Disons que vous avez obtenu votre archive à partir du lien ci-dessus, cela devr
 Extraire et installer.
 
 ```
-$ tar xzvf Django-x.xx.tar.gz
-$ cd Django-x.x
 
