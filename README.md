@@ -150,11 +150,3 @@ $ sudo python setup.py install
 
 ### Installation sur Windows
 
-L'installateur complet¶
-3.1.1. Étapes d'installation
-Quatre installateurs Python 3.9 sont disponibles au téléchargement — deux de chaque pour les versions 32-bit et 64-bit de l'interpréteur. L'installateur web est léger, et téléchargera automatiquement les composants nécessaires. L'installateur hors-ligne inclut les composants nécessaires pour une installation par défaut et n'a besoin d'une connexion internet que pour des fonctionnalités optionnelles. Voir Installation sans téléchargement pour d'autres moyens d’éviter des téléchargements durant l'installation..
-
-### 1. Ligne de commande et environnement
-L'interpréteur CPython analyse la ligne de commande et l'environnement à la recherche de différents paramètres.
-
-CPython implementation detail: Le format des lignes de commande utilisé par d'autres implémentations peut s'avérer différent. Voir Autres implémentations pour plus d'informations.
