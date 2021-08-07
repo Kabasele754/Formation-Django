@@ -140,7 +140,4 @@ Nous couvrirons la deuxième option car la première dépend de la distribution 
 
 Disons que vous avez obtenu votre archive à partir du lien ci-dessus, cela devrait être quelque chose comme Django-x.xx.tar.gz :
 
-Extraire et installer.
-
-```
 
