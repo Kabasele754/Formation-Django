@@ -128,7 +128,3 @@ $ python3 --version
 L'installation de Django est très simple, mais les étapes nécessaires à son installation dépendent de votre système d'exploitation. Étant donné que Python est un langage indépendant de la plate-forme, Django a un package qui fonctionne partout, quel que soit votre système d'exploitation.
 
 Vous pouvez télécharger la dernière version de Django à partir du lien http://www.djangoproject.com/download .
-
-### Installation UNIX/Linux et Mac OS X
-Vous avez deux manières d'installer Django si vous utilisez un système Linux ou Mac OS -
-
