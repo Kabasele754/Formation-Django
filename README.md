@@ -136,8 +136,4 @@ Vous pouvez utiliser le gestionnaire de packages de votre système d'exploitatio
 
 Installez-le manuellement en utilisant l'archive officielle que vous avez téléchargée auparavant.
 
-Nous couvrirons la deuxième option car la première dépend de la distribution de votre système d'exploitation. Si vous avez décidé de suivre la première option, faites simplement attention à la version de Django que vous installez.
-
-Disons que vous avez obtenu votre archive à partir du lien ci-dessus, cela devrait être quelque chose comme Django-x.xx.tar.gz :
-
 
