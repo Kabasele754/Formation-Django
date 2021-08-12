@@ -145,5 +145,12 @@ Pour installer l'AWS CLI avec pip (Windows)
 
 2. Vérifiez que Python et pip sont tous deux installés correctement en utilisant les commandes suivantes.
 
+```
+C:\Windows\System32> python --version
+Python 3.7.3
+C:\Windows\System32> pip --version
+pip 9.0.1 from c:\users\myname\appdata\local\programs\python\python37\lib\site-packages (python 3.7)
+```
+
 
 
