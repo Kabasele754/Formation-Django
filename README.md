@@ -123,3 +123,9 @@ Si vous utilisez l'une des dernières distributions Linux ou Mac OS X, vous avez
 ```linux
 $ python3 --version
 ```
+### Installation de Python, de pip et de l'interface de ligne de commande EB sous Windows
+
+La Python Software Foundation fournit des programmes d'installation pour Windows qui incluent pip.
+
+Pour installer Python 3.7 et pip (Windows)
+
