@@ -152,5 +152,39 @@ C:\Windows\System32> pip --version
 pip 9.0.1 from c:\users\myname\appdata\local\programs\python\python37\lib\site-packages (python 3.7)
 ```
 
+3. Installez l'interface de ligne de commande EB en utilisant pip.
 
+```
+C:\Windows\System32> pip install awsebcli --upgrade --user
+```
 
+4. Ajoutez le chemin d'accès au fichier exécutable (%USERPROFILE%\AppData\roaming\Python\Python37\scripts) à votre variable d'environnement PATH. L'emplacement peut varier selon que vous installez Python pour un utilisateur ou pour tous les utilisateurs.
+
+Pour modifier votre variable PATH (Windows) :
+
+a. Appuyez sur la touche Windows et entrez environment variables.
+
+b. Choisissez Modifier les variables d'environnement pour votre compte.
+
+C. Choisissez PATH, puis Modifier.
+
+d. Ajoutez des chemins d'accès dans le champ Valeur de la variable, en les séparant par des points virgules. Par exemple: C:\item1\path;C:\item2\path
+
+e. Choisissez OK deux fois pour appliquer les nouveaux paramètres.
+
+f. Fermez toutes les fenêtres d'invite de commande en cours d'exécution, puis rouvrez une fenêtre d'invite de commande.
+
+5. Redémarrez un nouveau shell de commande pour que la nouvelle variable PATH prennent effet.
+
+6. Vérifiez que l'interface de ligne de commande EB est installée correctement.
+
+```
+C:\Windows\System32> eb --version
+EB CLI 3.14.8 (Python 3.7)
+```
+
+Pour effectuer une mise à niveau vers la dernière version, exécutez à nouveau la commande d'installation.
+
+```
+C:\Windows\System32> pip install awsebcli --upgrade --user
+```
