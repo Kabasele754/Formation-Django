@@ -129,3 +129,21 @@ La Python Software Foundation fournit des programmes d'installation pour Windows
 
 Pour installer Python 3.7 et pip (Windows)
 
+1. Téléchargez le programme d'installation du fichier exécutable Windows x86-64 de Python 3.7 à partir de la page de téléchargements de Python.org.
+
+2. Exécutez le programme d'installation.
+
+3. Choisissez Add Python 3.7 to PATH (Ajouter Python 3.7 à PATH).
+
+4. Choisissez Install Now (Installer maintenant).
+
+Le programme d'installation installe Python dans votre dossier d'utilisateur et ajoute ses répertoires exécutables à votre chemin d'utilisateur.
+
+Pour installer l'AWS CLI avec pip (Windows)
+
+1. Dans le menu Démarrer, ouvrez une fenêtre d'invite de commande.
+
+2. Vérifiez que Python et pip sont tous deux installés correctement en utilisant les commandes suivantes.
+
+
+
