@@ -188,3 +188,5 @@ Pour effectuer une mise à niveau vers la dernière version, exécutez à nouvea
 ```
 C:\Windows\System32> pip install awsebcli --upgrade --user
 ```
+
+# initialisation du projet
