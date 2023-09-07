@@ -1,0 +1,76 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Home</title>
+{% endblock title %}
+
+{% block content %}
+<!-- partie carousel debut-->
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'image/1.jpg' %}" class="d-block w-100 my-img" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'image/2.jpg'%} " class="d-block w-100 my-img" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static  'image/3.jpg' %}" class="d-block w-100 my-img" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- partie carousel fin-->
+
+<!-- row  -->
+<div class="row pt-5 text-center">
+  <h3 class="my-title">List de blog</h3>
+</div>
+<div class="row p-5">
+
+<!--  col 1-->
+  {% for blog in list_blogs %}
+
+  <div class="col-3 mb-3">
+    <div class="card my-card" >
+  <img src="{{ blog.image.url }}" class="card-img-top my-img-card" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{blog.title}}</h5>
+    <p class="card-text">{{blog.description}}</p>
+    <a href="#" class="btn btn-primary">Mores views</a>
+  </div>
+  </div>
+</div>
+
+  {% endfor %}
+
+ <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
+<!--  row-->
+</div>
+
+
+
+
+
+{% endblock %}
